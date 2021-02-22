@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etchy</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="controls">
+            <label for="grid_size">
+                Grid Size:
+                <input class="grid_size" type="number" name="grid_size" value="16" min="2" max="64">
+            </label>
+            <button class="clear btn">clear</button>
+        </div>
+        <div class="container"></div>
+    </div>
 </body>
-<script src="sctipt.js"></script>
+<script src="script.js"></script>
+
 </html>
